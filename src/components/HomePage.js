@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import HomepageHeader from './HomepageHeader';
 import Gallery from './Gallery';
-import '../css/DashboardRight.css';
+import '../css/HomePage.css';
 
-class DashboardRight extends Component {
+class HomePage extends Component {
   render () {
     return (
-      <div className='dashboard-right'>
-      <h1>DashboardRight</h1>
+      <div className='home-page'>
       <HomepageHeader />
       <Gallery />
       </div>
@@ -15,4 +14,4 @@ class DashboardRight extends Component {
   }
 }
 
-export default DashboardRight;
+export default HomePage;

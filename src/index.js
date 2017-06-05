@@ -1,6 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import ProductPage from './components/ProductPage';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Router>
+    <div>
+      <Route exact path='/' component={App} />
+      <Route path='/products' component={ProductPage} />
+    </div>
+  </Router>
+  , document.getElementById('root'));

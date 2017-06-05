@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SideNav from './SideNav';
-import DashboardRight from './DashboardRight';
-// import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import HomePage from './HomePage';
+
 import '../css/App.css';
 
 class App extends Component {
@@ -19,10 +19,9 @@ class App extends Component {
             <SideNav />
           </div>
           <div className='col-md-9'>
-            <DashboardRight />
+            <HomePage />
           </div>
         </div>
-
     );
   }
 }
