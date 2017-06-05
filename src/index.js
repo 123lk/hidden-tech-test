@@ -9,7 +9,7 @@ ReactDOM.render(
   <Router>
     <div>
       <Route exact path='/' component={App} />
-      <Route path='/products' component={ProductPage} />
+      <Route path='/products/:id' component={ProductPage} />
     </div>
   </Router>
   , document.getElementById('root'));

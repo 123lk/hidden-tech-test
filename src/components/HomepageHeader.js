@@ -11,10 +11,10 @@ class HomepageHeader extends Component {
             Filter by colour  <span className="caret"></span>
           </button>
           <ul className="dropdown-menu">
-            <li>Blue</li>
-            <li>Black</li>
-            <li>White</li>
-            <li>Red</li>
+            <li id="dropdown-item">Blue</li>
+            <li id="dropdown-item">Black</li>
+            <li id="dropdown-item">White</li>
+            <li id="dropdown-item">Red</li>
           </ul>
         </div>
       </div>
