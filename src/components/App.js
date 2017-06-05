@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import SideNav from './SideNav';
 import HomePage from './HomePage';
-
 import '../css/App.css';
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div className='container-fluid'>
         <div className='row'>

@@ -1,0 +1,74 @@
+{
+  "trainers": [
+    {
+      "id": 1,
+      "product_name": "Trainers 1",
+      "description": "Nulla vitae elit libero, a pharetra augue.",
+      "image": "assets/images-1.jpg",
+      "colours": ["black", "white", "blue"]
+    },
+    {
+      "id": 2,
+      "product_name": "Trainers 2",
+      "description": "Sed posuere consectetur est at lobortis.",
+      "image": "assets/images-2.jpg",
+      "colours": ["black", "white", "red"]
+    },
+    {
+      "id": 3,
+      "product_name": "Trainers 3",
+      "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+      "image": "assets/images-3.jpg",
+      "colours": ["blue"]
+    },
+    {
+      "id": 4,
+      "product_name": "Trainers 4",
+      "description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+      "image": "assets/images-4.jpg",
+      "colours": ["black", "white"]
+    },
+    {
+      "id": 5,
+      "product_name": "Trainers 5",
+      "description": "Donec sed odio dui.",
+      "image": "assets/images-5.jpg",
+      "colours": ["black", "red"]
+    },
+    {
+      "id": 6,
+      "product_name": "Trainers 6",
+      "description": "Cras mattis consectetur purus sit amet fermentum.",
+      "image": "assets/images-6.jpg",
+      "colours": ["red"]
+    },
+    {
+      "id": 7,
+      "product_name": "Trainers 7",
+      "description": "Nulla vitae elit libero, a pharetra augue.",
+      "image": "assets/images-7.jpg",
+      "colours": ["black", "white"]
+    },
+    {
+      "id": 8,
+      "product_name": "Trainers 8",
+      "description": "Aenean lacinia bibendum nulla sed consectetur.",
+      "image": "assets/images-8.jpg",
+      "colours": ["white"]
+    },
+    {
+      "id": 9,
+      "product_name": "Trainers 9",
+      "description": "Sed posuere consectetur est at lobortis.",
+      "image": "assets/images-9.jpg",
+      "colours": ["white", "red"]
+    },
+    {
+      "id": 10,
+      "product_name": "Trainers 10",
+      "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
+      "image": "assets/images-10.jpg",
+      "colours": ["white", "blue"]
+    }
+  ]
+}

@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import MainProduct from './MainProduct';
 import RelatedProductGallery from './RelatedProductGallery';
 import SideNav from './SideNav';
-import '../css/ProductPage.css';
 
 class ProductPage extends Component {
-  render() {
+  render () {
     return (
       <div className='container-fluid' id='product-page'>
         <div className='row'>
