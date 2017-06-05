@@ -6,7 +6,7 @@ import '../css/Gallery.css';
 const trainers = data.trainers;
 
 class Gallery extends Component {
-  render() {
+  render () {
     return (
       <div className='gallery'>
         {trainers.map((product, i) => {

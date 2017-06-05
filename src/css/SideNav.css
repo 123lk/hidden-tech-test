@@ -1,3 +1,8 @@
 .side-nav {
-  border: 1px solid green;
+  background-color: lightblue;
+  border-radius: 1em;
+}
+
+li {
+  list-style: none;
 }

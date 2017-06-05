@@ -1,3 +1,12 @@
-.gallery-card {
-  border: 1px solid darkmagenta;
+.prev-price {
+  text-decoration: line-through;
+}
+
+#trainer-card {
+  border: 1px solid purple;
+  margin: 1em;
+}
+
+.card-block {
+  text-align: center;
 }

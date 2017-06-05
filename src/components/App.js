@@ -13,10 +13,10 @@ class App extends Component {
           <PageHeader />
           </div>
         </div>
-          <div className='col-md-3'>
+          <div className='col-md-3' id='left-side'>
             <SideNav />
           </div>
-          <div className='col-md-9'>
+          <div className='col-md-9' id='right-side'>
             <HomePage />
           </div>
         </div>
