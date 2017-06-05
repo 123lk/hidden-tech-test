@@ -1,4 +1,9 @@
 .page-header {
   background-color: #DEDEDE;
   margin-top: 0;
+  border-radius: 1em;
+}
+
+#header-logo {
+  border-radius: 1em;
 }

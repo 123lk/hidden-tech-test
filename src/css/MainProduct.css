@@ -1,3 +1,7 @@
 .main-product {
   border: 1px solid darkcyan;
 }
+
+#product-details {
+  display: inline-block;
+}

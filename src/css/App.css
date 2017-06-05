@@ -3,7 +3,11 @@
 }
 
 #right-side {
-  background-color: lightblue;
+  background-color: #DEDEDE;
   border-radius: 1em;
+}
+
+#left-side {
+  padding-left: 0;
 }
 

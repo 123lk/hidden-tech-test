@@ -5,8 +5,8 @@ class PageHeader extends Component {
   render () {
     return (
       <div className="page-header">
-        <span><img src={require('../assets/logo-header.png')} alt="" width="20%"/></span>
-        <span>Quality trainers with the best prices, guarenteed!</span>
+        <span><a href="http://localhost:3000/"><img id='header-logo' src={require('../assets/logo-header.png')} alt="" width="20%"/></a></span>
+        <span>Quality trainers with the best prices, guaranteed!</span>
       </div>
     );
   }

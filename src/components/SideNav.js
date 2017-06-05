@@ -6,7 +6,7 @@ class SideNav extends Component {
     return (
       <div className='side-nav'>
         <ul>
-          <li>Homepage</li>
+          <li><a href='http://localhost:3000/ '>Homepage</a></li>
           <li>Men's Trainers</li>
           <li>Women's Trainers</li>
           <li>Kid's Trainers</li>
