@@ -5,6 +5,8 @@
       "product_name": "Trainers 1",
       "description": "Nulla vitae elit libero, a pharetra augue.",
       "image": "assets/images-1.jpg",
+      "previous_price": "£15.99",
+      "current_price": "£10.99",
       "colours": ["black", "white", "blue"]
     },
     {
@@ -12,6 +14,8 @@
       "product_name": "Trainers 2",
       "description": "Sed posuere consectetur est at lobortis.",
       "image": "assets/images-2.jpg",
+      "previous_price": "£17.99",
+      "current_price": "£12.99",
       "colours": ["black", "white", "red"]
     },
     {
@@ -19,6 +23,8 @@
       "product_name": "Trainers 3",
       "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
       "image": "assets/images-3.jpg",
+      "previous_price": "£13.99",
+      "current_price": "£9.99",
       "colours": ["blue"]
     },
     {
@@ -26,6 +32,8 @@
       "product_name": "Trainers 4",
       "description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
       "image": "assets/images-4.jpg",
+      "previous_price": "£18.99",
+      "current_price": "£12.99",
       "colours": ["black", "white"]
     },
     {
@@ -33,6 +41,8 @@
       "product_name": "Trainers 5",
       "description": "Donec sed odio dui.",
       "image": "assets/images-5.jpg",
+      "previous_price": "£19.99",
+      "current_price": "£15.99",
       "colours": ["black", "red"]
     },
     {
@@ -40,6 +50,8 @@
       "product_name": "Trainers 6",
       "description": "Cras mattis consectetur purus sit amet fermentum.",
       "image": "assets/images-6.jpg",
+      "previous_price": "£15.99",
+      "current_price": "£10.99",
       "colours": ["red"]
     },
     {
@@ -47,6 +59,8 @@
       "product_name": "Trainers 7",
       "description": "Nulla vitae elit libero, a pharetra augue.",
       "image": "assets/images-7.jpg",
+      "previous_price": "£19.99",
+      "current_price": "£15.99",
       "colours": ["black", "white"]
     },
     {
@@ -54,6 +68,8 @@
       "product_name": "Trainers 8",
       "description": "Aenean lacinia bibendum nulla sed consectetur.",
       "image": "assets/images-8.jpg",
+      "previous_price": "£13.99",
+      "current_price": "£9.99",
       "colours": ["white"]
     },
     {
@@ -61,6 +77,8 @@
       "product_name": "Trainers 9",
       "description": "Sed posuere consectetur est at lobortis.",
       "image": "assets/images-9.jpg",
+      "previous_price": "£18.99",
+      "current_price": "£10.99",
       "colours": ["white", "red"]
     },
     {
@@ -68,6 +86,8 @@
       "product_name": "Trainers 10",
       "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
       "image": "assets/images-10.jpg",
+      "previous_price": "£15.99",
+      "current_price": "£10.99",
       "colours": ["white", "blue"]
     }
   ]

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MainProduct from './MainProduct';
 import RelatedProductGallery from './RelatedProductGallery';
+import Pageheader from './PageHeader';
 import SideNav from './SideNav';
 
 class ProductPage extends Component {
@@ -9,9 +10,7 @@ class ProductPage extends Component {
       <div className='container-fluid' id='product-page'>
         <div className='row'>
           <div className='col-md-12'>
-            <div className="page-header">
-              <h1>Example Page Header</h1>
-            </div>
+            <Pageheader />
           </div>
         </div>
         <div className='col-md-3'>

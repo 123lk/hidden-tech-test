@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SideNav from './SideNav';
 import HomePage from './HomePage';
+import PageHeader from './PageHeader';
 import '../css/App.css';
 
 class App extends Component {
@@ -9,9 +10,7 @@ class App extends Component {
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-md-12'>
-            <div className="page-header">
-              <h1>Example Page Header</h1>
-            </div>
+          <PageHeader />
           </div>
         </div>
           <div className='col-md-3'>
