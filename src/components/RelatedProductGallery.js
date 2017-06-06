@@ -3,17 +3,15 @@ import data from '../data.json';
 import RelatedProductGalleryCard from './RelatedProductGalleryCard';
 import '../css/RelatedProductGallery.css';
 
-
 const trainers = data.trainers;
 
 class RelatedProductGallery extends Component {
   render () {
   let id = this.props.id;
-  const productColour = data.trainers[id].colours[0];
-
+  let productColour = trainers[id].colours[0];
     return (
       <div className='related-product-gallery'>
-        <h2>Related products</h2>
+        <h2 id="rel-pro-title">Related products</h2>
         {trainers.map((product) => {
           return product.colours.map((colour, i) => {
             if (colour === productColour) {

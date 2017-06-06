@@ -5,8 +5,13 @@
 #trainer-card {
   border: 2px solid grey;
   margin: 1em;
+  margin-bottom: 2em;
 }
 
 .card-block {
   text-align: center;
+}
+
+#card-pic {
+  min-height: 181px;
 }

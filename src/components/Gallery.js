@@ -7,7 +7,7 @@ const trainers = data.trainers;
 let selectedColour = '';
 
 class Gallery extends Component {
-  constructor() {
+  constructor () {
     super();
     this.state = {
       showAll: false,
@@ -22,32 +22,32 @@ class Gallery extends Component {
     this.onClickRed = this.onClickRed.bind(this);
     this.onClickShowAll = this.onClickShowAll.bind(this);
   }
-  onClickBlue(event) {
+  onClickBlue (event) {
     if (event) event.preventDefault();
     selectedColour = 'blue';
-    this.setState({ blueOnly: !this.state.blueOnly });
+    this.setState({blueOnly: !this.state.blueOnly});
   }
-  onClickBlack(event) {
+  onClickBlack (event) {
     if (event) event.preventDefault();
     selectedColour = 'black';
     this.setState({ blackOnly: !this.state.blackOnly });
   }
-  onClickWhite(event) {
+  onClickWhite (event) {
     if (event) event.preventDefault();
     selectedColour = 'white';
     this.setState({ whiteOnly: !this.state.whiteOnly });
   }
-  onClickRed(event) {
+  onClickRed (event) {
     if (event) event.preventDefault();
     selectedColour = 'red';
     this.setState({ redOnly: !this.state.whiteOnly });
   }
-  onClickShowAll(event) {
+  onClickShowAll (event) {
     if (event) event.preventDefault();
     selectedColour = '';
     this.setState({ redOnly: !this.state.showAll });
   }
-  render() {
+  render () {
     let filteredTrainers = trainers.filter((el) => {
       if (selectedColour === '') {
         return trainers;

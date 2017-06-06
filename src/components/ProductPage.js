@@ -3,7 +3,6 @@ import SideNav from './SideNav';
 import MainProduct from './MainProduct';
 import RelatedProductGallery from './RelatedProductGallery';
 import PageHeader from './PageHeader';
-import '../css/ProductPage.css';
 
 class ProductPage extends Component {
   render () {

@@ -8,7 +8,7 @@ class RelatedProductGalleryCard extends Component {
         <div className="card-deck">
           <div className="col-sm-3">
             <div className="card" id="trainer-card">
-              <img className="card-img-top" src={require('../' + this.props.image)} alt="" width='100%'/>
+              <img className="card-img-top" id="rel-gal-card-pic" src={require('../' + this.props.image)} alt="" width='100%'/>
               <div className="card-block">
                 <a className="card-title" href={`http://localhost:3000/products/${this.props.id}`}>{this.props.name}</a>
                 <p className="prev-price">{this.props.previous_price}</p>

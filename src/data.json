@@ -1,94 +1,123 @@
 {
   "trainers": [
     {
-      "id": 1,
+      "id": "1",
       "product_name": "Trainers 1",
       "description": "Nulla vitae elit libero, a pharetra augue.",
       "image": "assets/images-1.jpg",
       "previous_price": "£15.99",
       "current_price": "£10.99",
-      "colours": ["black", "white", "blue"]
+      "colours": [
+        "black",
+        "white",
+        "blue"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "product_name": "Trainers 2",
       "description": "Sed posuere consectetur est at lobortis.",
       "image": "assets/images-2.jpg",
       "previous_price": "£17.99",
       "current_price": "£12.99",
-      "colours": ["black", "white", "red"]
+      "colours": [
+        "black",
+        "white",
+        "red"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "product_name": "Trainers 3",
       "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
       "image": "assets/images-3.jpg",
       "previous_price": "£13.99",
       "current_price": "£9.99",
-      "colours": ["blue"]
+      "colours": [
+        "blue"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "product_name": "Trainers 4",
       "description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
       "image": "assets/images-4.jpg",
       "previous_price": "£18.99",
       "current_price": "£12.99",
-      "colours": ["black", "white"]
+      "colours": [
+        "black",
+        "white"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "product_name": "Trainers 5",
       "description": "Donec sed odio dui.",
       "image": "assets/images-5.jpg",
       "previous_price": "£19.99",
       "current_price": "£15.99",
-      "colours": ["black", "red"]
+      "colours": [
+        "black",
+        "red"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "product_name": "Trainers 6",
       "description": "Cras mattis consectetur purus sit amet fermentum.",
       "image": "assets/images-6.jpg",
       "previous_price": "£15.99",
       "current_price": "£10.99",
-      "colours": ["red"]
+      "colours": [
+        "red"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "product_name": "Trainers 7",
       "description": "Nulla vitae elit libero, a pharetra augue.",
       "image": "assets/images-7.jpg",
       "previous_price": "£19.99",
       "current_price": "£15.99",
-      "colours": ["black", "white"]
+      "colours": [
+        "black",
+        "white"
+      ]
     },
     {
-      "id": 8,
+      "id": "8",
       "product_name": "Trainers 8",
       "description": "Aenean lacinia bibendum nulla sed consectetur.",
       "image": "assets/images-8.jpg",
       "previous_price": "£13.99",
       "current_price": "£9.99",
-      "colours": ["white"]
+      "colours": [
+        "white"
+      ]
     },
     {
-      "id": 9,
+      "id": "9",
       "product_name": "Trainers 9",
       "description": "Sed posuere consectetur est at lobortis.",
       "image": "assets/images-9.jpg",
       "previous_price": "£18.99",
       "current_price": "£10.99",
-      "colours": ["white", "red"]
+      "colours": [
+        "white",
+        "red"
+      ]
     },
     {
-      "id": 10,
+      "id": "10",
       "product_name": "Trainers 10",
       "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
       "image": "assets/images-10.jpg",
       "previous_price": "£15.99",
       "current_price": "£10.99",
-      "colours": ["white", "blue"]
+      "colours": [
+        "white",
+        "blue"
+      ]
     }
   ]
 }

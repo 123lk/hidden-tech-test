@@ -5,6 +5,7 @@
 #main-product-image {
   margin-top: 1em;
   margin-right: 1em;
+  min-height: 392px;
 }
 
 #main-product-prev-price {

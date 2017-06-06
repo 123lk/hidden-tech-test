@@ -24,3 +24,10 @@ $npm start
 ```
 
 Once compiled the program will be running on <http://localhost:3000/>
+
+## Built With
+[React](https://facebook.github.io/react/) - javascript library for building user interfaces
+
+[React Router](https://reacttraining.com/react-router/) - collection of navigational components for React applications
+
+[Bootstrap](http://getbootstrap.com/css/) - front-end framework
