@@ -24,27 +24,30 @@ class MainProduct extends Component {
               Size  <span className="caret"></span>
             </button>
             <ul className="dropdown-menu">
-              <li id="dropdown-item">5</li>
-              <li id="dropdown-item">6</li>
-              <li id="dropdown-item">7</li>
-              <li id="dropdown-item">8</li>
-              <li id="dropdown-item">9</li>
+              <li id="dropdown-item-mp">5</li>
+              <li id="dropdown-item-mp">6</li>
+              <li id="dropdown-item-mp">7</li>
+              <li id="dropdown-item-mp">8</li>
+              <li id="dropdown-item-mp">9</li>
             </ul>
           </div>
           </span>
           <span>
           <div className="btn-group">
-            <button className="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button className="btn btn-default btn-sm dropdown-toggle" id='quantity-button' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Quantity  <span className="caret"></span>
             </button>
             <ul className="dropdown-menu">
-              <li id="dropdown-item">1</li>
-              <li id="dropdown-item">2</li>
-              <li id="dropdown-item">3</li>
-              <li id="dropdown-item">4</li>
-              <li id="dropdown-item">5</li>
+              <li id="dropdown-item-mp">1</li>
+              <li id="dropdown-item-mp">2</li>
+              <li id="dropdown-item-mp">3</li>
+              <li id="dropdown-item-mp">4</li>
+              <li id="dropdown-item-mp">5</li>
             </ul>
           </div>
+          </span>
+          <span>
+            <button className="btn btn-default btn-sm" id='quantity-button' type="button" aria-expanded="false">Buy now</button>
           </span>
         </div>
       </div>

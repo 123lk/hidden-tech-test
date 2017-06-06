@@ -20,7 +20,7 @@ class Gallery extends Component {
     return (
       <div className='gallery'>
         <div className="btn-group">
-          <button className="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button className="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id='filter-button'>
             Filter by colour  <span className="caret"></span>
           </button>
           <ul className="dropdown-menu">

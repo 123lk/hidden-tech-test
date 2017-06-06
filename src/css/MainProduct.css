@@ -10,3 +10,15 @@
 #main-product-prev-price {
   text-decoration: line-through;
 }
+
+#dropdown-item-mp:hover {
+  background-color: #DBEEF3;
+}
+
+#dropdown-item-mp {
+  text-align: center;
+}
+
+#quantity-button {
+  margin-left: 1em;
+}
