@@ -19,8 +19,12 @@ class ProductPage extends Component {
             <SideNav />
           </div>
           <div className='col-md-9' id='right-side'>
-            <MainProduct />
-            <RelatedProductGallery />
+            <MainProduct 
+            id={this.props.match.params.id}
+            />
+            <RelatedProductGallery 
+            id={this.props.match.params.id}
+            />
           </div>
         </div>
       </div>

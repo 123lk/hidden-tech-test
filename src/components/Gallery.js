@@ -6,7 +6,17 @@ import '../css/Gallery.css';
 const trainers = data.trainers;
 
 class Gallery extends Component {
+
   render () {
+
+  let selectedColour = 'blue';
+
+  let filtered = trainers.filter((el) => {
+    return el.id === 2;
+  });
+
+  console.log(filtered);
+
     return (
       <div className='gallery'>
         <div className="btn-group">

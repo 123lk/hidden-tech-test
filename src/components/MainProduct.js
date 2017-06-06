@@ -1,13 +1,18 @@
 import React, {Component} from 'react';
 import data from '../data.json';
+import * as helpers from '../helpers/helpers.js';
 import '../css/MainProduct.css';
+
+const findById = helpers.findById;
 
 class MainProduct extends Component {
   render () {
-  let product = data.trainers[0];
+  let id = this.props.id;
+  let arrangedById = findById(data.trainers);
+  let product = arrangedById[id];
     return (
       <div className='main-product'>
-      <img src={require('../assets/images-1.jpg')} alt="" width='30%'/>
+      <img src={require('../assets/images-1.jpg')} alt="" width='50%'/>
       <div id='product-details'>
       <h1>{product.product_name}</h1>
       <p>{product.description}</p>
