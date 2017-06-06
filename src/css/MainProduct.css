@@ -1,7 +1,12 @@
-.main-product {
-  border: 1px solid darkcyan;
-}
-
 #product-details {
   display: inline-block;
+}
+
+#main-product-image {
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+#main-product-prev-price {
+  text-decoration: line-through;
 }
