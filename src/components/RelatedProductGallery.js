@@ -13,7 +13,7 @@ class RelatedProductGallery extends Component {
         <h2>Related products</h2>
         {trainers.map((product, i) => {
           return product.colours.map((colour, i) => {
-            if (colour === productColour) 
+            if (colour === productColour) {
               return (
                 <RelatedProductGalleryCard
                   key={i}
@@ -26,6 +26,9 @@ class RelatedProductGallery extends Component {
                   colours={product.colours}
                 />
               );
+            } else return (
+              <h4>No related products available</h4>
+            );
           });
         })}
       </div>
