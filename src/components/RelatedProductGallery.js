@@ -27,7 +27,7 @@ class RelatedProductGallery extends Component {
                   colours={product.colours}
                 />
               );
-            }
+            } else return null;
           });
         })}
       </div>

@@ -106,18 +106,6 @@
         "white",
         "red"
       ]
-    },
-    {
-      "id": "10",
-      "product_name": "Trainers 10",
-      "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
-      "image": "assets/images-10.jpg",
-      "previous_price": "£15.99",
-      "current_price": "£10.99",
-      "colours": [
-        "white",
-        "blue"
-      ]
     }
   ]
 }
