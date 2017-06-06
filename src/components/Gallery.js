@@ -4,19 +4,46 @@ import data from '../data.json';
 import '../css/Gallery.css';
 
 const trainers = data.trainers;
+let selectedColour = '';
 
 class Gallery extends Component {
-
+  constructor () {
+    super();
+    this.state = {
+      blueOnly: false,
+      blackOnly: false,
+      whiteOnly: false,
+      redOnly: false
+    };
+    this.onClickBlue = this.onClickBlue.bind(this);
+    this.onClickBlack = this.onClickBlack.bind(this);
+    this.onClickWhite = this.onClickWhite.bind(this);
+    this.onClickRed = this.onClickRed.bind(this); 
+  }
+  onClickBlue (event) {
+    if (event) event.preventDefault();
+    selectedColour = 'blue';
+    this.setState({blueOnly: !this.state.blueOnly});
+  }
+  onClickBlack (event) {
+    if (event) event.preventDefault();
+    selectedColour = 'black';
+    this.setState({blackOnly: !this.state.blackOnly});
+  }
+  onClickWhite (event) {
+    if (event) event.preventDefault();
+    selectedColour = 'white';
+    this.setState({whiteOnly: !this.state.whiteOnly});
+  }
+  onClickRed (event) {
+    if (event) event.preventDefault();
+    selectedColour = 'red';
+    this.setState({redOnly: !this.state.whiteOnly});
+  }
   render () {
-
-  let selectedColour = 'blue';
-
-  let filtered = trainers.filter((el) => {
-    return el.id === 2;
-  });
-
-  console.log(filtered);
-
+    let filteredTrainers = trainers.filter((el) => {
+      return el.colours[0] === selectedColour; 
+    });
     return (
       <div className='gallery'>
         <div className="btn-group">
@@ -24,13 +51,13 @@ class Gallery extends Component {
             Filter by colour  <span className="caret"></span>
           </button>
           <ul className="dropdown-menu">
-            <li id="dropdown-item">Blue</li>
-            <li id="dropdown-item">Black</li>
-            <li id="dropdown-item">White</li>
-            <li id="dropdown-item">Red</li>
+            <li onClick={this.onClickBlue} id="dropdown-item">Blue</li>
+            <li onClick={this.onClickBlack} id="dropdown-item">Black</li>
+            <li onClick={this.onClickWhite} id="dropdown-item">White</li>
+            <li onClick={this.onClickRed} id="dropdown-item">Red</li>
           </ul>
         </div>
-        {trainers.map((product, i) => {
+        {filteredTrainers.map((product, i) => {
           return (
             <GalleryCard
               key={i}

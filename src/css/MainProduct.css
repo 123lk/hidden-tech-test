@@ -13,6 +13,7 @@
 
 #dropdown-item-mp:hover {
   background-color: #DBEEF3;
+  cursor: pointer;
 }
 
 #dropdown-item-mp {
