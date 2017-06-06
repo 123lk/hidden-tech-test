@@ -6,13 +6,15 @@ import PageHeader from './PageHeader';
 import '../css/ProductPage.css';
 
 class ProductPage extends Component {
-  render() {
+  render () {
     return (
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-md-12'>
             <PageHeader />
           </div>
+        </div>
+        <div className='row'>
           <div className='col-md-3'>
             <SideNav />
           </div>

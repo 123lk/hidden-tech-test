@@ -7,7 +7,7 @@ class MainProduct extends Component {
   let product = data.trainers[0];
     return (
       <div className='main-product'>
-      <img src={require('../assets/images-1.jpg')} alt="" width='40%'/>
+      <img src={require('../assets/images-1.jpg')} alt="" width='30%'/>
       <div id='product-details'>
       <h1>{product.product_name}</h1>
       <p>{product.description}</p>
